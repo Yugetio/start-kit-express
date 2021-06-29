@@ -1,0 +1,7 @@
+/user:
+  get:
+    tags: [User]
+    summary: Get list of users
+    responses:
+      200:
+        description: Response data

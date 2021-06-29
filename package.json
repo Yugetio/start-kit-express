@@ -1,0 +1,27 @@
+{
+  "name": "initial_project",
+  "version": "0.0.1",
+  "description": "Initial project configuration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "start:dev": "nodemon src"
+  },
+  "author": "Vladyslav Kaminskyi",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.0",
+    "mongoose-to-swagger": "^1.3.0",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.3.2"
+  }
+}
